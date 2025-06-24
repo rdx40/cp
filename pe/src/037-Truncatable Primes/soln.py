@@ -24,7 +24,7 @@ def is_truncatable_prime(n):
 found = []
 num = 11
 
-while len(found) < 11:
+while len(found) <= 10:
     if is_prime(num) and is_truncatable_prime(num):
         found.append(num)
     num += 2
