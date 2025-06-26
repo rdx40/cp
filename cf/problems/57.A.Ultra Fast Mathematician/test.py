@@ -1,0 +1,5 @@
+num = input()
+num1 = input()
+print(int(num,2))
+res = int(num,2) ^ int(num1,2)
+print(f'{res:0{len(num)}b}')
